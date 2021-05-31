@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS file Included -->
+	<link rel="stylesheet"
+		type="text/css" href="style.css">
+
+	<!-- JavaScript file included -->
+	<script src="ttt.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1>TIC TAC TOE</h1>
+        <h2 id="current_player">The current player is X</h2>
+		<button id="but" onclick="reset()">New Game</button>
+		<p class="board">
+			<button class="box" id="b_00" onclick="makeMove(0,0)"></button>
+			<button class="box" id="b_01" onclick="makeMove(0,1)"></button>
+			<button class="box" id="b_02" onclick="makeMove(0,2)"></button>
+			<button class="box" id="b_10" onclick="makeMove(1,0)"></button>
+			<button class="box" id="b_11" onclick="makeMove(1,1)"></button>
+			<button class="box" id="b_12" onclick="makeMove(1,2)"></button>
+			<button class="box" id="b_20" onclick="makeMove(2,0)"></button>
+			<button class="box" id="b_21" onclick="makeMove(2,1)"></button>
+			<button class="box" id="b_22" onclick="makeMove(2,2)"></button>
+			<div class="line"></div>
+		</p>
+		
+		
+		<h2 id="winner"></h2>
+		
+	</div>
+</body>
+
+</html>
