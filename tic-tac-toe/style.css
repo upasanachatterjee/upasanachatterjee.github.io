@@ -1,80 +1,81 @@
-<style>
-	/* CSS Code */
-	/* Heading */
-	h1 {
-		color: orangered;
-		font-size: 45px;
-	}
-	.line{
-		width: 420px;
-		height: 5px;
-		background-color: black;
-		position:absolute;
-		transform: rotate(45deg);
-		transform-origin: 0% 0%;
-		top:200px;
-		left:550px;
-	}
+/* CSS Code */
+/* Heading */
+h1 {
+	color: orangered;
+	font-size: 24px;
+}
+h2 {
+	height: 20px;
+}
+.line{
+	width: 420px;
+	height: 5px;
+	background-color: black;
+	position:absolute;
+	transform: rotate(45deg);
+	transform-origin: 0% 0%;
+	top:200px;
+	left:550px;
+}
 
-	/* 3*3 Grid */
-	.box{
-		width: 33%;
-		height: 33%;
-		margin:0%;
-		border: 2px solid dodgerblue;
-		font-size: 40px;
-		line-height: normal;
-		text-align: center;
-		vertical-align: top;
-		background-color: white;
-	}
-	.board{
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: 300px;
-		height: 300px;
-		font-size: 0px;
-		margin: auto;
+/* 3*3 Grid */
+.box{
+	width: 33%;
+	height: 33%;
+	margin:0%;
+	border: 2px solid dodgerblue;
+	font-size: 40px;
+	line-height: normal;
+	text-align: center;
+	vertical-align: top;
+	background-color: white;
+}
+.board{
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 300px;
+	font-size: 0px;
+	margin: auto;
 
-	}
+}
 
-	/* Reset Button */
-	#but {
-		box-sizing: border-box;
-		width: 150px;
-		height: 40px;
-		border: 1px solid dodgerblue;
-		margin: 10px;
-		border-radius: 4px;
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 150px;
+	height: 40px;
+	border: 1px solid dodgerblue;
+	margin: 10px;
+	border-radius: 4px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
 
-		background-color: dodgerblue;
-		color: white;
-		font-size: 20px;
-		cursor: pointer;
-	}
+	background-color: dodgerblue;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
 
-	/* Player turn space */
-	#print {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
+/* Player turn space */
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
 
-		color: dodgerblue;
-		font-size: 20px;
-	}
+	color: dodgerblue;
+	font-size: 20px;
+}
 
-	/* Main Contianer */
-	#main {
-		text-align: center;
-	}
+/* Main Contianer */
+#main {
+	text-align: center;
+}
 
-	/* Game Instruction Text */
-	#ins {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
-			
-		color: dodgerblue;
-		font-size: 17px;
-	}
-</style>
+/* Game Instruction Text */
+#ins {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+		
+	color: dodgerblue;
+	font-size: 17px;
+}

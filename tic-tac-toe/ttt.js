@@ -10,18 +10,17 @@ function reset() {
     xBoard = new Array(9).fill(false);
     oBoard = new Array(9).fill(false);
     finishedGame = false;
-    document.getElementById("winner").textContent = "";
+    document.getElementById("winner").innerText = "";
     for (let i = 0; i < 3; i++) {
         for (let j = 0; j < 3; j++) {
             const box = "b_" + i.toString() + j.toString();
             const box_element = document.getElementById(box);
             box_element.innerHTML = "";
-
         }
     }
 }   
 
-function makeMove(x, y) {
+function makeMove(x, y, roboMove=false) {
     if (isValidMove(x, y)) {
         const box = "b_" + x.toString() + y.toString();
         const player = getPlayer();
@@ -30,16 +29,18 @@ function makeMove(x, y) {
         const cellPlayed = getCell(x,y);
         storeMove(cellPlayed, player);
         if (getWin(player)) {
-            endGame(player);
+            return;
+        }
+        if (getStalemate()) {
+            return;
         }
         incrementPlayer();
-    } 
-}
 
-function showPlayer() {
-    const player = getPlayer();
-    var text = "The current player is " + player;
-    document.getElementById("current_player").textContent = text;
+        if (!roboMove) {
+            const move = getValidMove();
+            makeMove(move[0], move[1], true);
+        }
+    }
 }
 
 function getWin(player) {
@@ -47,13 +48,43 @@ function getWin(player) {
     const horizontalWin = getHorizontalWin(board);
     const verticalWin = getVerticalWin(board);
     const diagonalWin = getDiagonalWin(board);
-    return horizontalWin || verticalWin || diagonalWin;
+    if (horizontalWin || verticalWin || diagonalWin) {
+        endGame(player);
+        return true;
+    }
+    return false;
+}
+
+function getStalemate() {
+    if (board.every(cell => cell === true)) {
+        endGame();
+        return true;
+    }
+    return false;
 }
 
 // HELPERS
 
+function getValidMove() {
+    let move = Math.floor(Math.random() * 9);
+    while (board[move]) {
+        move = Math.floor(Math.random() * 9);
+    }
+    const y = move % 3;
+    const x = (move - y) / 3;
+    return [x, y];
+
+}
+
 function endGame(player) {
-    text = "Player " + player + " wins!";
+    let text = "";
+    if (player) {
+        text = player + " wins!";
+    }
+    else {
+        text = "Stalemate!"
+    }
+    
     document.getElementById("winner").textContent = text;
     finishedGame = true;
 }
@@ -103,7 +134,6 @@ function storeMove(cell, player) {
 }
 function incrementPlayer() {
     round++;
-    showPlayer();
 }
 function getPlayer() {
     return round % 2 == 0 ? "X" : "O";
