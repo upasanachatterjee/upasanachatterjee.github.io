@@ -28,15 +28,9 @@ Outside school and work, you can find me in Central Park or at a gallery.
 ## Publications {#publications}
 
 <div class="publication" markdown="1">
-**Chatterjee, U.** and Bauer, D. (2026). **What You Say vs. How You Say It:
-Metalinguistic Pre-Training for Political News Classification.**
-<span class="venue">Preprint.</span>
+**Chatterjee, U.** and Bauer, D. **What You Say vs. How You Say It: Metalinguistic Pre-Training for Political News Classification.** <span class="venue">Preprint.</span>
 </div>
 
 <div class="publication" markdown="1">
-**Chatterjee, U. (2026)**. **Does Topic Sentiment Cause Perceived Ideology?
-Comparing Human and LLM Annotations in Political News Articles.**
-<span class="venue">In *Proceedings of the 64th Annual Meeting of the
-Association for Computational Linguistics (Student Research Workshop)*,
-pp. 725–740.</span> [arXiv:2606.06715](https://arxiv.org/abs/2606.06715). <a href="{{ '/assets/ACL_2026_SRW-205.pdf' | relative_url }}">(Poster)</a>
+**Chatterjee, U**. **Does Topic Sentiment Cause Perceived Ideology? Comparing Human and LLM Annotations in Political News Articles.** <span class="venue">ACL 2026.</span> [Paper](https://arxiv.org/abs/2606.06715) · <a href="{{ '/assets/ACL_2026_SRW-205.pdf' | relative_url }}">Poster</a>
 </div>
