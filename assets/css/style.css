@@ -56,8 +56,10 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Garamond", sans-serif;
-  font-size: 1.05rem;
+  font-family: "Ranade-Light", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.95rem;
   line-height: 1.65;
 }
 
@@ -68,6 +70,19 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+strong,
+b {
+  font-family: "Ranade-Bold", serif;
+  font-weight: 700;
+}
+
+em,
+i {
+  font-family: "Ranade-LightItalic", serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* --- Header ---------------------------------------------------------------- */
@@ -92,6 +107,7 @@ a:hover {
 }
 
 .site-name {
+  font-family: "Ranade-Bold", serif;
   font-weight: 700;
   color: var(--text);
 }
@@ -299,6 +315,8 @@ h3 {
 
 .entry-sub {
   color: var(--text-soft);
+  font-family: "Ranade-LightItalic", serif;
+  font-weight: 300;
   font-style: italic;
   margin: 0.1rem 0 0.35rem;
 }
