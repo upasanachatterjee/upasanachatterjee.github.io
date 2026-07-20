@@ -11,6 +11,7 @@ title: Upasana Chatterjee
   <a href="mailto:uc2143@columbia.edu"><i class="fa-solid fa-envelope" style="font-size:24px"></i></a>
   <a href="https://github.com/upasanachatterjee"><i class="fa-brands fa-square-github" style="font-size:24px"></i></a>
   <a href="https://www.linkedin.com/in/upasanachatterjee1"><i class="fa-brands fa-square-linkedin" aria-hidden="true" style="font-size:24px"></i></a>
+  <a href="https://scholar.google.com/citations?user=Qw5_NKwAAAAJ&hl=en"><i class="fa-brands fa-google-scholar" aria-hidden="true" style="font-size:24px"></i></a>
 </div>
 
 # Hi, I'm Upasana!
@@ -28,7 +29,7 @@ Outside school and work, you can find me in Central Park or at a gallery.
 ## Publications {#publications}
 
 <div class="publication" markdown="1">
-**Chatterjee, U.** and Bauer, D. *What You Say vs. How You Say It: Metalinguistic Pre-Training for Political News Classification.* <span class="venue">Preprint.</span>
+**Chatterjee, U.** and Bauer, D. *What You Say vs. How You Say It: Metalinguistic Pre-Training for Political News Classification.* <span class="venue">In Submission.</span>
 </div>
 
 <div class="publication" markdown="1">
