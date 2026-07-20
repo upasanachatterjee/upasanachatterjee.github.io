@@ -7,6 +7,12 @@ title: Upasana Chatterjee
 
 <div class="hero-photo"><img src="{{ '/assets/photo.JPG' | relative_url }}" alt="Upasana Chatterjee"></div>
 
+<div class="hero-icons">
+  <a href="mailto:uc2143@columbia.edu"><i class="fa-solid fa-envelope" style="font-size:24px"></i></a>
+  <a href="https://github.com/upasanachatterjee"><i class="fa-brands fa-square-github" style="font-size:24px"></i></a>
+  <a href="https://www.linkedin.com/in/upasanachatterjee1"><i class="fa-brands fa-square-linkedin" aria-hidden="true" style="font-size:24px"></i></a>
+</div>
+
 # Hi, I'm Upasana!
 
 Born in India and raised in Sweden, I've been drawn to how language shifts across pluralistic contexts. This motivates much of my research today.
