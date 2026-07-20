@@ -1,16 +1,9 @@
 title: Upasana Chatterjee
 description: >-
   Computer science researcher interested in evaluation methodologies for
-  language models — reasoning, interpretability, and safe deployment.
+  language models: reasoning, interpretability, and safe deployment.
 author: Upasana Chatterjee
 email: uc2143@columbia.edu
-
-# TODO: replace these placeholders with your real profiles.
-github_username: USERNAME
-linkedin_username: USERNAME
-
-url: ""
-baseurl: ""
 
 markdown: kramdown
 

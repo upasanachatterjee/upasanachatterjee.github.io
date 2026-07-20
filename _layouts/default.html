@@ -6,6 +6,7 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ site.description | strip_newlines | strip }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="https://kit.fontawesome.com/db3565d2a5.js" crossorigin="anonymous"></script>
   <script>
     // Apply saved theme before first paint to avoid a flash.
     (function () {
@@ -21,9 +22,7 @@
     <nav class="site-nav">
       <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <div class="nav-links">
-        <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#beyond">Beyond</a>
         <a href="{{ '/assets/cv.pdf' | relative_url }}">CV</a>
         <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
           <span class="toggle-icon" aria-hidden="true"></span>
@@ -38,12 +37,12 @@
 
   <footer class="site-footer">
     <p>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a> ·
-      <a href="https://github.com/{{ site.github_username }}">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a> ·
-      <a href="{{ '/assets/cv.pdf' | relative_url }}">CV (PDF)</a>
+      <a href="mailto:uc2143@columbia.edu"><i class="fa-solid fa-envelope" style="font-size:24px"></i></a>
+      <a href="https://github.com/upasanachatterjee"><i class="fa-brands fa-square-github" style="font-size:24px"></i></a>
+      <a href="https://www.linkedin.com/in/upasanachatterjee1"><i class="fa-brands fa-square-linkedin" aria-hidden="true" style="font-size:24px"></i></a>
     </p>
     <p class="footnote">&copy; {{ site.time | date: "%Y" }} {{ site.author }} · Built with Jekyll, hosted on GitHub Pages.</p>
+    <p class="footnote">Last updated: {{ site.time | date: "%B %-d, %Y" }}</p>
   </footer>
 
   <script>
