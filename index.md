@@ -16,7 +16,7 @@ title: Upasana Chatterjee
 
 # Hi, I'm Upasana!
 
-Born in India and raised in Sweden, I've been drawn to how language shifts across pluralistic contexts. This motivates much of my research today.
+Born in India and raised in Sweden, I've been fascinated by language and how it shifts across pluralistic contexts. This motivates much of my research today.
 
 I study the gap between what language models get right and why they get it right. More recently, I've also been looking what "right" means (and should mean!) when no one label can capture it. My current focus is on building evaluation frameworks that test the reasoning processes and internal representations of these models.
 
