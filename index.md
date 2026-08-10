@@ -16,8 +16,6 @@ title: Upasana Chatterjee
 
 # Hi, I'm Upasana!
 
-Born in India and raised in Sweden, I've been fascinated by language and how it shifts across pluralistic contexts. This motivates much of my research today.
-
 I study the gap between what language models get right and why they get it right. More recently, I've also been looking what "right" means (and should mean!) when no one label can capture it. My current focus is on building evaluation frameworks that test the reasoning processes and internal representations of these models.
 
 I'm finishing my master's degree at Columbia University. I've worked with <a href="https://www.cs.columbia.edu/~bauer/">Daniel Bauer</a> on my thesis investigating the role of topic sentiment in identifying percieved political ideology of news articles. Currently, I work with <a href="https://causalai.net/">Elias Bareinboim</a> in the <a href="https://www.cs.columbia.edu/labs/causal-artificial-intelligence-lab/">Causal AI Lab</a> and with <a href="https://www.cs.columbia.edu/~augustin/">Augustin Chaintreau</a> in the <a href="https://mobilesociallab.cs.columbia.edu/">Mobile Social Lab</a>. I am also a senior software engineer at Bloomberg L.P. 
