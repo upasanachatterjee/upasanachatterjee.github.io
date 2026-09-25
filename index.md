@@ -18,7 +18,7 @@ title: Upasana Chatterjee
 
 I study the gap between what language models get right and why they get it right. More recently, I've also been looking what "right" means (and should mean!) when no one label can capture it. My current focus is on building evaluation frameworks that test the reasoning processes and internal representations of these models.
 
-I'm finishing my master's degree at Columbia University. I've worked with <a href="https://www.cs.columbia.edu/~bauer/">Daniel Bauer</a> on my thesis investigating the role of topic sentiment in identifying percieved political ideology of news articles. Currently, I work with <a href="https://causalai.net/">Elias Bareinboim</a> in the <a href="https://www.cs.columbia.edu/labs/causal-artificial-intelligence-lab/">Causal AI Lab</a> and with <a href="https://www.cs.columbia.edu/~augustin/">Augustin Chaintreau</a> in the <a href="https://mobilesociallab.cs.columbia.edu/">Mobile Social Lab</a>. I am also a senior software engineer at Bloomberg L.P. 
+I'm finishing my master's degree at Columbia University. I've worked with <a href="https://www.cs.columbia.edu/~bauer/">Daniel Bauer</a> on my thesis investigating the role of topic sentiment in identifying percieved political ideology of news articles. Currently, I am conducting independent research with <a href="https://causalai.net/">Elias Bareinboim's</a> <a href="https://www.cs.columbia.edu/labs/causal-artificial-intelligence-lab/">Causal AI Lab</a> and with <a href="https://www.cs.columbia.edu/~augustin/">Augustin Chaintreau's</a> <a href="https://mobilesociallab.cs.columbia.edu/">Mobile Social Lab</a>. I am also a senior software engineer at Bloomberg L.P. 
 
 For my undergraduate degree, I studied mathematics and computer science at UC Berkeley. There, I wrote my honours thesis on elliptic curve cryptography under the supervision of <a href="math.berkeley.edu/people/faculty/richard-e-borcherds">Richard Borcherds</a>.
 
@@ -27,7 +27,7 @@ Outside school and work, you can find me in Central Park or at a gallery.
 ## Publications {#publications}
 
 <div class="publication" markdown="1">
-**Chatterjee, U.** and Bauer, D. *What You Say vs. How You Say It: Metalinguistic Pre-Training for Political News Classification.* <span class="venue">In Submission.</span>
+**Chatterjee, U.** and Bauer, D. *Beyond Ideological Similarity: Theme and Tone Supervision for Political Text Classification* <span class="venue">In Submission.</span>
 </div>
 
 <div class="publication" markdown="1">
